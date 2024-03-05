@@ -1,0 +1,65 @@
+﻿@model Banco.DTO.UsuarioDTO
+
+@{
+    ViewData["Title"] = "Editar usuario";
+}
+
+<div class="container py-4">
+    <form class="custom-form card bg-light p-5" asp-action="ProcesarFormularioEdicion" asp-controller="AdministracionUsuarios" enctype="multipart/form-data" method="post" asp-route-id="@Model.Id">
+        <h2 class="text-center mb-5">
+            Editar usuario
+        </h2>
+        <div class="d-flex justify-content-center my-4">
+            @if (Model.Foto != null)
+            {
+                <img src="data:image/jpeg;base64,@(Model.Foto != null ? Convert.ToBase64String(Model.Foto) : "")" class="rounded-circle img-fluid" alt="Imagen de usuario" style="max-width: 200px; max-height: 200px;">
+            }
+            else
+            {
+                <span class="badge bg-dark">El usuario no tiene foto de perfil</span>
+            }
+        </div>
+        <input type="hidden" name="id" value="@Model.Id" />
+        <div class="mb-3">
+            <label for="email" class="form-label textoPrincipal">Correo Electrónico</label>
+            <input type="email" id="email" name="email" class="form-control" value="@Model.EmailUsuario" readonly disabled />
+        </div>
+        <div class="mb-3">
+            <label for="nombre" class="form-label textoPrincipal">Nombre</label>
+            <input type="text" id="nombre" name="nombre" class="form-control" value="@Model.NombreUsuario" required />
+        </div>
+        <div class="mb-3">
+            <label for="apellidos" class="form-label textoPrincipal">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" class="form-control" value="@Model.ApellidosUsuario" required />
+        </div>
+        <div class="mb-3">
+            <label for="telefono" class="form-label textoPrincipal">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" class="form-control" value="@Model.TlfUsuario" required />
+        </div>
+        @if (Model.Rol == "ROLE_USER")
+        {
+            <div class="mb-3">
+                <label for="rol" class="form-label textoPrincipal">Rol del usuario (Solamente se permite escalar privilegios)</label>
+                <select id="rol" name="rol" class="form-select" required>
+                    <option value="ROLE_USER" selected>Usuario</option>
+                    <option value="ROLE_ADMIN">Administrador</option>
+                </select>
+            </div>
+        }
+        @if (Model.Rol == "ROLE_ADMIN")
+        {
+            <div class="mb-3">
+                <label for="rol" class="form-label textoPrincipal">Rol del usuario (Solamente se permite escalar privilegios)</label>
+                <input type="text" name="rol" id="rol" class="form-control" value="Administrador" readonly>
+            </div>
+        }
+        <div class="mb-3">
+            <label for="foto" class="form-label textoPrincipal">Foto de Perfil</label>
+            <input type="file" id="foto" name="foto" class="form-control" accept="image/*" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-5">
+            Guardar cambios
+        </button>
+    </form>
+</div>
+

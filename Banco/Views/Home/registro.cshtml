@@ -1,0 +1,66 @@
+﻿@model Banco.DTO.UsuarioDTO
+
+@{
+    ViewData["Title"] = "registro";
+    var emailYaRegistrado = ViewData["EmailRepetido"] as string;
+    string nombreControlador = "Registro";
+    var esRegistroDeAdmin = ViewData["esRegistroDeAdmin"] as bool?;
+    var error = ViewData["error"] as string;
+    if (esRegistroDeAdmin.HasValue && esRegistroDeAdmin.Value)
+    {
+        nombreControlador = "AdministracionUsuarios"; 
+    }
+}
+
+<div class="container py-4">
+    <div class="registro card bg-light p-4">
+        <form class="custom-form" asp-action="RegistrarPost" asp-controller="@nombreControlador" method="post" asp-for="UsuarioDTO">
+            <h2 class="text-center mb-4">Registro nuevo usuario</h2>
+            <input type="hidden" name="returnUrl" value="@TempData["ReturnUrl"]" />
+            <div class="mb-3">
+                <label for="EmailUsuario" class="form-label textoPrincipal">Correo Electrónico</label>
+                <input type="email" id="EmailUsuario" name="EmailUsuario" class="form-control" placeholder="Escribe tu correo electrónico" required />
+            </div>
+            <div class="mb-3">
+                <label for="ClaveUsuario" class="form-label textoPrincipal">Contraseña</label>
+                <input type="password" id="ClaveUsuario" name="ClaveUsuario" class="form-control" placeholder="Escribe tu contraseña" required oninput="revisarContraseña()" />
+            </div>
+            <div class="mb-3">
+                <label for="confirmarPassword" class="form-label textoPrincipal">Confirmar Contraseña</label>
+                <input type="password" id="confirmarPassword" class="form-control" placeholder="Repite tu contraseña" required oninput="revisarContraseña()" />
+            </div>
+            <div class="mensajeContrasenya mt-4 text-center" id="mensajeContrasenya"></div>
+            
+            <div class="mb-3">
+                <label for="NombreUsuario" class="form-label textoPrincipal">Nombre</label>
+                <input type="text" id="NombreUsuario" name="NombreUsuario" class="form-control" placeholder="Escribe tu nombre" required />
+            </div>
+            <div class="mb-3">
+                <label for="ApellidosUsuario" class="form-label textoPrincipal">Apellidos</label>
+                <input type="text" id="ApellidosUsuario" name="ApellidosUsuario" class="form-control" placeholder="Escribe tus apellidos" required />
+            </div>
+            <div class="mb-3">
+                <label for="TlfUsuario" class="form-label textoPrincipal">Teléfono</label>
+                <input type="tel" id="TlfUsuario" name="TlfUsuario" class="form-control" placeholder="Escribe tu número de teléfono" required />
+            </div>
+            <button type="submit" id="btnRegistro" class="btn btn-primary mt-4">Crear cuenta</button>
+        </form>
+    </div>
+
+    @if (!string.IsNullOrEmpty(emailYaRegistrado))
+    {
+        <script>
+            mostrarNotificacion("¡No se pudo crear la cuenta!", "El email introducido ya se encuentra registrado en el sistema", 'error');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(error))
+    {
+        <script>
+            mostrarNotificacion("¡Error!", "Ocurrio un error no esperado, intentelo de nuevo", 'error');
+        </script>
+    }
+
+</div>
+
+
+

@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "login";
+    var mensajeRegistroExitoso = ViewData["MensajeRegistroExitoso"] as string;
+    var cuentaVerificada = ViewData["CuentaVerificada"] as string;
+    var cuentaNoVerificada = ViewData["EmailNoConfirmado"] as string;
+    var yaEstabaVerificada = ViewData["yaEstabaVerificada"] as string;
+    var mensajeExitoMail = ViewData["MensajeExitoMail"] as string;
+    var contraseñaModificada = ViewData["ContraseñaModificadaExito"] as string;
+    var mensajeErrorInicioSesion = ViewData["MensajeErrorInicioSesion"] as string;
+    var recursoProhibido = ViewData["RecursoProhibido"] as string;
+    var error = ViewData["error"] as string;
+}
+
+<div class="container py-4">
+    <div class="login card bg-light p-4">
+        <form class="custom-form" method="post" asp-action="ProcesarInicioSesion" asp-controller="Login" asp-for="UsuarioDTO" role="form">
+            <h2 class="text-center mb-4">Iniciar sesión</h2>
+            <div class="mb-3">
+                <label for="EmailUsuario" class="form-label textoPrincipal">Correo Electrónico</label>
+                <input type="text" class="form-control" name="EmailUsuario" id="EmailUsuario" placeholder="Introduzca su correo electrónico" required autofocus />
+            </div>
+            <div class="mb-3">
+                <label for="ClaveUsuario" class="form-label textoPrincipal">Contraseña</label>
+                <input type="password" name="ClaveUsuario" id="ClaveUsuario" class="form-control" placeholder="Introduzca su contraseña" required />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-4 mb-3">Inicio de sesión</button>
+
+            <div class="text-center">
+                <a href="/auth/solicitar-recuperacion" class="btn btn-primary btn-sm me-2">Recuperar contraseña</a>
+                <a href="/auth/crear-cuenta" class="btn btn-primary btn-sm">Regístrese</a>
+            </div>
+        </form>
+    </div>
+
+
+    @if (!string.IsNullOrEmpty(mensajeRegistroExitoso))
+    {
+        <script>
+            mostrarNotificacion("¡Email de confirmación enviado!", "Revise su bandeja de entrada y confirme su cuenta de correo electrónico.", 'info');
+        </script>
+    }
+
+    @if (!string.IsNullOrEmpty(cuentaVerificada))
+    {
+        <script>
+            mostrarNotificacion("¡Cuenta verificada!", "La cuenta ha sido confirmada correctamente. Ya puede iniciar sesión", 'success');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(cuentaNoVerificada))
+    {
+        <script>
+            mostrarNotificacion("¡Debe confirmar su correo electrónico!", "Para poder iniciar sesión, antes debe confirmar su cuenta de correo electrónico. Revise su bandeja de entrada", 'error');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(mensajeExitoMail))
+    {
+        <script>
+            mostrarNotificacion("¡Email de recuperación enviado!", "Revise su bandeja de entrada y sigua las instrucciones para restablecer su contraseña", 'info');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(yaEstabaVerificada))
+    {
+        <script>
+            mostrarNotificacion("¡Se encuentra registrado y vericado!", "Puede acceder y hacer uso de su cuenta", 'info');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(contraseñaModificada))
+    {
+        <script>
+            mostrarNotificacion("¡Contraseña modificada con exito!", "Ya puede iniciar sesión con su nueva contraseña", 'success');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(mensajeErrorInicioSesion))
+    {
+        <script>
+            mostrarNotificacion("¡No se pudo iniciar sesión!", "Credenciales introducidas incorrectas o cuenta de email no verificada", 'error');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(recursoProhibido))
+    {
+        <script>
+            mostrarNotificacion("¡Prohibido!", "No tiene permiso para acceder a este recurso", 'error');
+
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(error))
+    {
+        <script>
+            mostrarNotificacion("¡Error!", "Ocurrio un error no esperado, intentelo de nuevo", 'error');
+        </script>
+    }
+</div>

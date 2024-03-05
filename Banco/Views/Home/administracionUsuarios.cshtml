@@ -1,0 +1,137 @@
+﻿@{
+    ViewData["Title"] = "administracionUsuarios";
+    var noSePuedeEliminar = ViewData["noSePuedeEliminar"] as string;
+    var eliminacionCorrecta = ViewData["eliminacionCorrecta"] as string;
+    var EdicionCorrecta = ViewData["EdicionCorrecta"] as string;
+    var mensajeRegistroExitoso = ViewData["MensajeRegistroExitoso"] as string;
+    var cuentaNoVerificada = ViewData["EmailNoConfirmado"] as string;
+    var noTePuedesEliminar = ViewData["noTePuedesEliminar"] as string;
+    var usuarioNoEncontrado = ViewData["usuarioNoEncontrado"] as string;
+    var error = ViewData["error"] as string;
+
+
+}
+
+<div class="container py-4">
+    <div class="card bg-light cardPrincipal cardAdminUser">
+        <div class="card-header border-bottom border-3">
+            <h3 class="subtituloSecundario text-center">Administración de usuarios</h3>
+        </div>
+        <div class="card-body">
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-6">
+                    <a asp-controller="AdministracionUsuarios" asp-action="RegistroUsuarioDesdeAdminGet" role="button" class="btn btn-primary btn-lg d-block mb-3">
+                        Registrar usuario
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <form method="get" action="@Url.Action("ListadoUsuarios", "AdministracionUsuarios")">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="busquedaUser" placeholder="Buscar el email del usuario">
+                            <button class="btn btn-primary" type="submit">Buscar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            @if (ViewBag.Usuarios != null)
+            {
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th class="tableCustom">id</th>
+                            <th class="tableCustom">Nombre y apellidos</th>
+                            <th class="tableCustom">Email</th>
+                            <th class="tableCustom">Teléfono</th>
+                            <th class="tableCustom">Fecha de registro</th>
+                            <th class="tableCustom">Cuenta activa</th>
+                            <th class="tableCustom">Rol</th>
+                            <th class="tableCustom" asp:authorize="User.IsInRole('ROLE_ADMIN')">Edición</th>
+                            <th class="tableCustom" asp:authorize="User.IsInRole('ROLE_ADMIN')">Eliminado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var usuario in ViewBag.Usuarios)
+                        {
+                            <tr>
+                                <td>@usuario.Id</td>
+                                <td>@(usuario.NombreUsuario + (usuario.ApellidosUsuario != null ? " " + usuario.ApellidosUsuario : ""))</td>
+                                <td>@usuario.EmailUsuario</td>
+                                <td>@usuario.TlfUsuario</td>
+                                <td>@usuario.FechaRegistro</td>
+                                <td>@(usuario.CuentaConfirmada ? "Sí" : "No")</td>
+                                <td>@(usuario.Rol == "ROLE_USER" ? "USER" : "ADMIN")</td>
+                                <td asp:authorize="User.IsInRole('ROLE_ADMIN')">
+                                    <a class="btn btn-primary" asp-action="MostrarFormularioEdicion" asp-controller="AdministracionUsuarios" asp-route-id="@usuario.Id">
+                                        <i class="bi bi-pencil-square"></i> Editar
+                                    </a>
+                                </td>
+                                <td asp:authorize="User.IsInRole('ROLE_ADMIN')">
+                                    <a class="btn btn-danger" data-id="@usuario.Id" onclick="confirmarEliminar(event)">
+                                        <i class="bi bi-trash"></i> Eliminar
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <h5 class="card-title text-center text-danger">No hay usuarios registrados</h5>
+            }
+        </div>
+    </div>
+</div>
+
+    @if (!string.IsNullOrEmpty(usuarioNoEncontrado))
+    {
+        <script>
+            mostrarNotificacion("¡No se encontraron usuarios!", "No hay ninguna coincidencia en ningún email con la busqueda introducida", 'info');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(mensajeRegistroExitoso))
+    {
+        <script>
+            mostrarNotificacion("¡El usuario fue registrado!", "Para usar la cuenta tiene que confirmar su cuenta de correo electrónico.", 'info');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(noSePuedeEliminar))
+    {
+        <script>
+            mostrarNotificacion("¡Error!", "No se puede eliminar al ultimo usuario con permisos de administrador", 'error');
+        </script>
+    }
+    
+    @if (!string.IsNullOrEmpty(eliminacionCorrecta))
+    {
+        <script>
+            mostrarNotificacion("¡Usuario eliminado!", "El usuario ha sido eliminado correctamente", 'success');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(cuentaNoVerificada))
+    {
+        <script>
+            mostrarNotificacion("¡Email registrado pero sin verificar!", "Para que pueda usar la cuenta, antes debe confirmar su cuenta de correo electrónico", 'error');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(EdicionCorrecta))
+    {
+        <script>
+            mostrarNotificacion("¡Cambios guardados!", "El usuario ha sido modificado", 'info');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(noTePuedesEliminar))
+    {
+        <script>
+            mostrarNotificacion("¡No puede eliminarse a sí mismo!", "Debe ser otro administrador quien realice esta acción", 'info');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(error))
+    {
+        <script>
+            mostrarNotificacion("¡Error!", "Ocurrio un error no esperado, intentelo de nuevo", 'error');
+        </script>
+    }
+</>
+
+

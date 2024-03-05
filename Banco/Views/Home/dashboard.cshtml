@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "dashboard";
+    var noAdmin = ViewData["noAdmin"] as string;
+    var noSePuedeEliminar = ViewData["noSePuedeEliminar"] as string;
+    var error = ViewData["error"] as string;
+}
+<div class="container py-4">
+    @if (User.IsInRole("ROLE_USER"))
+    {
+        <div class="container py-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <h4 class="text-center subtituloSecundario">Hola <span>@ViewBag.UsuarioDTO.NombreUsuario</span></h4>
+                            <div class="text-center mt-4">
+                                @if (ViewBag.UsuarioDTO.Foto != null)
+                                {
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(ViewBag.UsuarioDTO.Foto)" class="rounded-circle img-fluid" alt="Imagen de usuario" style="max-width: 100px; max-height: 100px;">
+                                }
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-center">Correo electrónico: @ViewBag.UsuarioDTO.EmailUsuario</p>
+                                <p class="text-center">Teléfono: @ViewBag.UsuarioDTO.TlfUsuario</p>
+                                <p class="text-center">Fecha de registro: @ViewBag.UsuarioDTO.FechaRegistro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+
+
+    <div class="container bg-light rounded p-4 shadow">
+        <div class="row justify-content-center mt-4">
+            @if (User.IsInRole("ROLE_ADMIN"))
+            {
+                <div class="col-md-6 text-center">
+                    <div>
+                        @if (ViewBag.UsuarioDTO.Foto != null)
+                        {
+                            <img src="data:image/jpeg;base64,@(Convert.ToBase64String(ViewBag.UsuarioDTO.Foto))" class="rounded-circle mb-3" alt="Foto de usuario" style="max-width: 100px; max-height: 100px;">
+                        }
+                        <h5 class="mt-4 mb-3">Administrar Usuarios</h5>
+                        <p class="mb-4">Acceda para gestionar usuarios.</p>
+                        <a href="/privada/administracion-usuarios" class="btn btn-primary">Acceder <i class="bi bi-arrow-right-circle"></i></a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+
+
+    @if (!string.IsNullOrEmpty(noAdmin))
+    {
+        <script>
+            mostrarNotificacion("¡Recurso prohibido!", "No tiene los permisos suficientes para acceder a este recurso", 'error');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(noSePuedeEliminar))
+    {
+        <script>
+            mostrarNotificacion("¡Error!", "No se puede eliminar a un usuario con permisos de administrador", 'error');
+        </script>
+    }
+    @if (!string.IsNullOrEmpty(error))
+    {
+        <script>
+            mostrarNotificacion("¡Error!", "Ocurrio un error no esperado, intentelo de nuevo", 'error');
+        </script>
+    }
+
+</div>
+

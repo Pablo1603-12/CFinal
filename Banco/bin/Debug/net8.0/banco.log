@@ -1,0 +1,1241 @@
+05/03/2024 07:41:31 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 07:42:42 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 07:42:42 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 07:42:46 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 07:42:56 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 07:42:56 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 07:43:01 [Error UsuarioServicioImpl - registrarUsuario()] Error al registrar un usuario: An exception has been raised that is likely due to a transient failure.
+05/03/2024 07:43:01 [ERROR] Se lanzó una excepción en el método RegistrarPost() de la clase  RegistroController: Object reference not set to an instance of an object.   at Banco.Controllers.RegistroController.RegistrarPost(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco\BikerConnectDIW\Controllers\RegistroController.cs:line 56
+05/03/2024 07:47:23 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 07:47:34 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 07:47:36 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 07:47:37 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 07:47:39 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 07:47:53 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 07:47:53 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 07:47:58 [Error UsuarioServicioImpl - registrarUsuario()] Error al registrar un usuario: An exception has been raised that is likely due to a transient failure.
+05/03/2024 07:50:12 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 07:50:12 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 07:50:12 [ERROR] Se lanzó una excepción en el método RegistrarPost() de la clase  RegistroController: Object reference not set to an instance of an object.   at Banco.Controllers.RegistroController.RegistrarPost(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\RegistroController.cs:line 56
+05/03/2024 07:50:31 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 07:50:31 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 07:50:35 [Error UsuarioServicioImpl - registrarUsuario()] Error al registrar un usuario: An exception has been raised that is likely due to a transient failure.
+05/03/2024 07:50:37 [ERROR] Se lanzó una excepción en el método RegistrarPost() de la clase  RegistroController: Object reference not set to an instance of an object.   at Banco.Controllers.RegistroController.RegistrarPost(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\RegistroController.cs:line 56
+05/03/2024 09:23:44 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 09:24:01 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 09:24:11 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 09:24:11 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 09:24:12 [Error UsuarioServicioImpl - registrarUsuario()] Error al registrar un usuario: 42P01: no existe la relación «gestion_usuarios.usuarios» |  | POSITION: 181
+05/03/2024 09:24:40 [ERROR] Se lanzó una excepción en el método RegistrarPost() de la clase  RegistroController: Object reference not set to an instance of an object.   at Banco.Controllers.RegistroController.RegistrarPost(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\RegistroController.cs:line 56
+05/03/2024 09:25:01 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 09:25:01 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 09:25:01 [Error UsuarioServicioImpl - registrarUsuario()] Error al registrar un usuario: 42P01: no existe la relación «gestion_usuarios.usuarios» |  | POSITION: 181
+05/03/2024 09:25:01 [ERROR] Se lanzó una excepción en el método RegistrarPost() de la clase  RegistroController: Object reference not set to an instance of an object.   at Banco.Controllers.RegistroController.RegistrarPost(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\RegistroController.cs:line 56
+05/03/2024 09:32:28 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 09:32:30 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 09:32:39 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 09:32:39 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 09:32:40 [Error UsuarioServicioImpl - registrarUsuario()] Error al registrar un usuario: 42P01: no existe la relación «esqUsuarios.usuarios» |  | POSITION: 181
+05/03/2024 09:32:40 [ERROR] Se lanzó una excepción en el método RegistrarPost() de la clase  RegistroController: Object reference not set to an instance of an object.   at Banco.Controllers.RegistroController.RegistrarPost(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\RegistroController.cs:line 56
+05/03/2024 09:35:27 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 09:35:36 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 09:35:45 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 09:35:45 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 09:35:45 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 09:35:45 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 09:35:45 [INFO] Entrando en el método usuarioToDao() de la clase ConvertirAdaoImpl
+05/03/2024 09:35:45 [INFO] Saliendo del método usuarioToDao() de la clase ConvertirAdaoImpl
+05/03/2024 09:35:45 [INFO] Entrando en el método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 09:35:45 [INFO] Saliendo del método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 09:35:46 [INFO] Entrando en el método enviarEmailConfirmacion() de la clase ServicioEmailImpl
+05/03/2024 09:35:47 [INFO] Saliendo del método enviarEmailConfirmacion() de la clase ServicioEmailImpl
+05/03/2024 09:35:47 [INFO] Saliendo del método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 09:35:47 [INFO] Saliendo del método RegistrarGet() de la clase RegistroController. Registro del nuevo usuario OK
+05/03/2024 09:37:53 [INFO] Entrando en el método ConfirmarCuenta() de la clase LoginController
+05/03/2024 09:37:53 [INFO] Entrando en el método confirmarCuenta() de la clase UsuarioServicioImpl
+05/03/2024 09:37:53 [INFO] Saliendo del método confirmarCuenta() de la clase UsuarioServicioImpl. Cuenta confirmada OK.
+05/03/2024 09:37:53 [INFO] Saliendo del método ConfirmarCuenta() de la clase LoginController. La dirección de correo ha sido confirmada correctamente
+05/03/2024 09:38:00 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 09:38:00 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 09:38:00 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 09:38:00 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 09:38:00 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 09:38:00 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 09:38:00 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 09:38:00 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 09:38:00 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 09:38:00 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 09:38:00 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 09:38:00 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 09:38:00 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 09:38:00 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 09:38:06 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 09:38:06 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 09:38:09 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 09:38:16 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 09:38:16 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 09:38:16 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 09:38:17 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl. Username no encontrado
+05/03/2024 09:38:17 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController. Credenciales inválidas o cuenta no confirmada. Inténtelo de nuevo.
+05/03/2024 09:53:40 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 09:55:48 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 09:57:41 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 09:59:12 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:02:00 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:06:05 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 10:06:05 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 10:06:06 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:06:22 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 10:06:27 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 10:06:27 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 10:06:27 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 10:06:27 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 10:06:27 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 10:06:27 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:27 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:27 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 10:06:27 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 10:06:27 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 10:06:27 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:27 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:27 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 10:06:27 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 10:06:32 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 10:06:32 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 10:06:32 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:32 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:32 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:32 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:32 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:32 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:32 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 10:06:34 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 10:06:34 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 10:06:34 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 10:06:34 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:34 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:34 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 10:06:39 [INFO] Entrando en el método EliminarUsuario() de la clase AdministracionUsuariosController
+05/03/2024 10:06:39 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método contarUsuariosPorRol() de la clase UsuarioServicioImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método eliminar() de la clase UsuarioServicioImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método eliminar() de la clase UsuarioServicioImpl. Usuario eliminado OK
+05/03/2024 10:06:39 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:06:39 [INFO] Saliendo del método EliminarUsuario() de la clase AdministracionUsuariosController. El usuario se ha eliminado correctamente
+05/03/2024 10:38:17 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 10:38:17 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:38:17 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 10:38:17 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 10:38:17 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 10:48:46 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:26 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:27 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:27 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:38 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:38 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:39 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:46 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:47 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:47 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:47 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:51:58 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:53:27 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:53:45 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:55:06 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:55:36 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:55:39 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 10:55:40 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:55:40 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 10:55:41 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:55:44 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 10:55:44 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:55:45 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 10:55:45 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:57:28 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:58:15 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:58:19 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 10:58:22 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:59:29 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 10:59:30 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:00:25 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:00:29 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:03:48 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:03:49 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:04:15 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:04:16 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:05:33 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:05:34 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:05:49 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:05:50 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:06:43 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:06:44 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:07:19 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:07:19 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:07:21 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:07:22 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:07:23 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:07:24 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:07:30 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:07:30 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:07:30 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:07:30 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl. Username no encontrado
+05/03/2024 11:07:30 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController. Credenciales inválidas o cuenta no confirmada. Inténtelo de nuevo.
+05/03/2024 11:07:34 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:07:34 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:07:34 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:07:34 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:07:34 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:07:34 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:07:34 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:07:34 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:07:34 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:07:34 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:07:34 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:07:34 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:07:34 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:07:34 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:07:40 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:07:42 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:07:44 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:08:39 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:08:41 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:08:42 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:08:42 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:08:46 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:08:47 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:08:50 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:08:54 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:08:54 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:09:43 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:09:43 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:09:44 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:09:49 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:09:50 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:09:51 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:10:57 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:10:58 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:10:59 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:11:10 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:11:17 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:11:18 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:11:20 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:11:33 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:11:34 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:11:35 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:11:37 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:11:38 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:12:20 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:12:25 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:12:26 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:12:45 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:12:49 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:12:51 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:12:52 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:13:00 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 11:13:00 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:13:00 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:13:00 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:13:00 [INFO] Entrando en el método usuarioToDao() de la clase ConvertirAdaoImpl
+05/03/2024 11:13:00 [INFO] Saliendo del método usuarioToDao() de la clase ConvertirAdaoImpl
+05/03/2024 11:13:00 [INFO] Entrando en el método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:13:00 [INFO] Saliendo del método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:13:00 [INFO] Entrando en el método enviarEmailConfirmacion() de la clase ServicioEmailImpl
+05/03/2024 11:13:01 [INFO] Saliendo del método enviarEmailConfirmacion() de la clase ServicioEmailImpl
+05/03/2024 11:13:01 [INFO] Saliendo del método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:13:01 [INFO] Saliendo del método RegistrarGet() de la clase RegistroController. Registro del nuevo usuario OK
+05/03/2024 11:13:09 [INFO] Entrando en el método ConfirmarCuenta() de la clase LoginController
+05/03/2024 11:13:09 [INFO] Entrando en el método confirmarCuenta() de la clase UsuarioServicioImpl
+05/03/2024 11:13:09 [INFO] Saliendo del método confirmarCuenta() de la clase UsuarioServicioImpl. Cuenta confirmada OK.
+05/03/2024 11:13:09 [INFO] Saliendo del método ConfirmarCuenta() de la clase LoginController. La dirección de correo ha sido confirmada correctamente
+05/03/2024 11:13:16 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:13:16 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:13:16 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:13:16 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:13:16 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:13:16 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:13:16 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:13:16 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:13:16 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:13:16 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:13:16 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:13:16 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:13:16 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:13:16 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:14:19 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:14:20 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:14:21 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:14:21 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:14:21 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:14:21 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:14:21 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:14:21 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:14:21 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:14:21 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:14:21 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:14:21 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:14:21 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:14:21 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:14:21 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:14:21 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:14:25 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:14:25 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:14:26 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:14:46 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:14:46 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:14:46 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:14:46 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:14:46 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:14:46 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:14:46 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:14:46 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:14:46 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:14:46 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:14:46 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:14:46 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:14:46 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:14:46 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:16:09 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:16:10 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:16:12 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:16:12 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:16:12 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:16:12 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:16:12 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:16:12 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:16:12 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:16:12 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:16:12 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:16:12 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:16:12 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:16:12 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:16:12 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:16:12 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:16:57 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:16:58 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:16:58 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:16:58 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:16:58 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:16:58 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:16:58 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:16:58 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:16:58 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:16:58 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:16:58 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:16:58 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:16:58 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:16:58 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:16:58 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:16:59 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:17:46 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:17:47 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:17:48 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:17:48 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:17:48 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:17:48 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:17:48 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:17:48 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:17:48 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:17:48 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:17:48 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:17:48 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:17:48 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:17:48 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:17:48 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:17:48 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:18:54 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:18:55 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:18:56 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:18:56 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:18:56 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:18:56 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:18:56 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:18:56 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:18:56 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:18:56 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:18:56 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:18:56 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:18:56 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:18:56 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:18:56 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:18:56 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:18:59 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:18:59 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:18:59 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:19:01 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:19:01 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:19:01 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:19:01 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:19:01 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:19:01 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:01 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:01 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:19:01 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:19:01 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:19:01 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:01 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:01 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:19:01 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:19:03 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:19:03 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:19:04 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:19:06 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:19:06 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:19:06 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:19:06 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:19:06 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:19:06 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:06 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:06 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:19:06 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:19:06 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:19:06 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:06 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:06 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:19:06 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:19:08 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:19:08 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:19:08 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:08 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:08 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:08 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:08 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:08 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:19:08 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:20:21 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:20:22 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:20:23 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:20:23 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:20:23 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:20:23 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:20:23 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:20:23 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:23 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:23 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:20:23 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:20:23 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:20:23 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:23 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:23 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:20:23 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:20:25 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:20:25 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:20:25 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:25 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:25 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:25 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:25 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:25 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:25 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:20:26 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:20:26 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:20:26 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:20:26 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:26 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:20:26 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 11:21:16 [INFO] Entrando en el método ProcesarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:21:16 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:21:16 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:21:16 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:16 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:16 [INFO] Entrando en el método actualizarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:21:16 [INFO] Saliendo del método actualizarUsuario() de la clase UsuarioServicioImpl. Usuario actualizado OK
+05/03/2024 11:21:16 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:21:16 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:16 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:16 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:16 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:16 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:16 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:16 [INFO] Saliendo del método ProcesarFormularioEdicion() de la clase AdministracionUsuariosController. El Usuario se ha editado correctamente
+05/03/2024 11:21:20 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:21:20 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:20 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:21:20 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:21:20 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:22:08 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:22:08 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:22:09 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:22:09 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:22:09 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:22:10 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:22:10 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:22:10 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:10 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:10 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:22:10 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:22:10 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:22:10 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:10 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:10 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:22:10 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:22:14 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:22:14 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:22:14 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:14 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:14 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:14 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:14 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:14 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:14 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:22:15 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:22:15 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:22:15 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:22:15 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:15 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:15 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 11:22:44 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:22:49 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:22:50 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:22:50 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:22:50 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:22:50 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:22:50 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:22:50 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:50 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:50 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:22:50 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:22:50 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:22:50 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:50 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:50 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:22:50 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:22:51 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:22:51 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:22:51 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:51 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:51 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:51 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:51 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:51 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:22:51 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:23:55 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:23:56 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:23:57 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:23:57 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:23:57 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:23:57 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:23:57 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:23:57 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:57 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:57 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:23:57 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:23:57 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:23:57 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:57 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:57 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:23:57 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:23:59 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:23:59 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:23:59 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:59 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:59 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:59 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:59 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:59 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:23:59 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:24:03 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:24:03 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:03 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:03 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:03 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:03 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:24:20 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:24:20 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:20 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:20 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:24:20 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:24:21 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:24:21 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:24:21 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:21 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:21 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:21 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:21 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:21 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:21 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:24:30 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:24:30 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:24:31 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:24:31 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:24:31 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:24:31 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:24:31 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:24:31 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:31 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:31 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:24:31 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:24:31 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:24:31 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:31 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:31 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:24:31 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:24:33 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:24:33 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:24:33 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:33 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:33 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:33 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:33 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:33 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:33 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:24:34 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:24:34 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:24:34 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:24:34 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:34 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:24:34 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 11:25:02 [INFO] Entrando en el método ProcesarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:25:02 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:25:02 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:25:02 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:02 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:02 [INFO] Entrando en el método actualizarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:25:02 [INFO] Saliendo del método actualizarUsuario() de la clase UsuarioServicioImpl. Usuario actualizado OK
+05/03/2024 11:25:02 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:25:02 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:02 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:02 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:02 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:02 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:02 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:02 [INFO] Saliendo del método ProcesarFormularioEdicion() de la clase AdministracionUsuariosController. El Usuario se ha editado correctamente
+05/03/2024 11:25:05 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:25:05 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:05 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:05 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:25:05 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:25:06 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:25:06 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:25:06 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:06 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:06 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:06 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:06 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:06 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:06 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:25:10 [INFO] Entrando en el método RegistroUsuarioDesdeAdminGet() de la clase AdministracionUsuariosController
+05/03/2024 11:25:10 [INFO] Saliendo del método RegistroUsuarioDesdeAdminGet() de la clase AdministracionUsuariosController.
+05/03/2024 11:25:14 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:25:14 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:25:14 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:25:14 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:14 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:14 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 11:25:16 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:25:16 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:25:16 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:25:16 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:16 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:16 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 11:25:22 [INFO] Entrando en el método RegistroUsuarioDesdeAdminGet() de la clase AdministracionUsuariosController
+05/03/2024 11:25:22 [INFO] Saliendo del método RegistroUsuarioDesdeAdminGet() de la clase AdministracionUsuariosController.
+05/03/2024 11:25:34 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:25:34 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:25:34 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:34 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:34 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:34 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:34 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:34 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:34 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:25:38 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:25:38 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:25:38 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:25:38 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:38 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:38 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 11:25:39 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:25:39 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:25:39 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:39 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:39 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:25:41 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:25:41 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:41 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:25:41 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:25:41 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:25:44 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:25:44 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:25:45 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:25:46 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:25:48 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:25:49 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:25:52 [INFO] Entrando en el método ProcesarInicioRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:25:52 [INFO] Entrando en el método iniciarProcesoRecuperacion() de la clase UsuarioServicioImpl
+05/03/2024 11:25:52 [INFO] Entrando en el método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:25:52 [INFO] Saliendo del método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:25:52 [INFO] Entrando en el método enviarEmailRecuperacion() de la clase ServicioEmailImpl
+05/03/2024 11:25:53 [INFO] Saliendo del método enviarEmailRecuperacion() de la clase ServicioEmailImpl
+05/03/2024 11:25:53 [INFO] Saliendo del método iniciarProcesoRecuperacion() de la clase UsuarioServicioImpl.
+05/03/2024 11:25:53 [INFO] Saliendo del método ProcesarInicioRecuperacion() de la clase SolicitarRecuperacionController. Proceso de recuperación OK
+05/03/2024 11:26:02 [INFO] Entrando en el método MostrarVistaRecuperar() de la clase RecuperarPasswordController
+05/03/2024 11:26:02 [INFO] Entrando en el método obtenerUsuarioPorToken() de la clase UsuarioServicioImpl
+05/03/2024 11:26:02 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:26:02 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:26:02 [INFO] Saliendo del método obtenerUsuarioPorToken() de la clase UsuarioServicioImpl.
+05/03/2024 11:26:02 [INFO] Saliendo del método MostrarVistaRecuperar() de la clase RecuperarPasswordController
+05/03/2024 11:26:12 [INFO] Entrando en el método ProcesarRecuperacionContraseña() de la clase RecuperarPasswordController
+05/03/2024 11:26:12 [INFO] Entrando en el método obtenerUsuarioPorToken() de la clase UsuarioServicioImpl
+05/03/2024 11:26:12 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:26:12 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:26:12 [INFO] Saliendo del método obtenerUsuarioPorToken() de la clase UsuarioServicioImpl.
+05/03/2024 11:26:12 [INFO] Entrando en el método modificarContraseñaConToken() de la clase UsuarioServicioImpl
+05/03/2024 11:26:12 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:26:12 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:26:12 [INFO] Saliendo del método modificarContraseñaConToken() de la clase UsuarioServicioImpl.
+05/03/2024 11:26:12 [INFO] Saliendo del método ProcesarRecuperacionContraseña() de la clase RecuperarPasswordController. Contraseña modificada OK
+05/03/2024 11:26:17 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:26:17 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:26:17 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:26:17 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl. Username no encontrado
+05/03/2024 11:26:17 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController. Credenciales inválidas o cuenta no confirmada. Inténtelo de nuevo.
+05/03/2024 11:26:25 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:26:25 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:26:25 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:26:25 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:26:25 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:26:25 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:26:25 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:26:25 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:26:25 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:26:25 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:26:25 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:26:25 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:26:25 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:26:25 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:27:20 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:27:32 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:27:38 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:27:39 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:27:39 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:27:39 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:27:39 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:27:39 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:27:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:27:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:27:39 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:27:39 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:27:39 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:27:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:27:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:27:39 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:27:39 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:28:25 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:28:26 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:28:27 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:28:27 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:28:27 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:28:27 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:28:27 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:28:27 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:28:27 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:28:27 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:28:27 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:28:27 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:28:27 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:28:27 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:28:27 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:28:27 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:28:31 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:29:34 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:29:35 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:29:36 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:29:36 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:29:36 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:29:36 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:29:36 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:29:36 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:29:36 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:29:36 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:29:36 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:29:37 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:29:37 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:29:37 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:29:37 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:29:37 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:30:52 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:30:53 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:30:54 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:30:54 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:30:54 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:30:54 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:30:54 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:30:54 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:30:54 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:30:54 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:30:54 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:30:54 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:30:54 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:30:54 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:30:54 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:30:54 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:30:57 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:30:57 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:32:17 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:32:17 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:32:24 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:32:24 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:32:24 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:32:24 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:32:24 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:32:24 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:24 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:24 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:32:24 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:32:24 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:32:24 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:24 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:24 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:32:24 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:32:27 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:32:27 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:32:27 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:27 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:27 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:27 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:27 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:27 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:27 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:32:30 [INFO] Entrando en el método EliminarUsuario() de la clase AdministracionUsuariosController
+05/03/2024 11:32:30 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método contarUsuariosPorRol() de la clase UsuarioServicioImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método eliminar() de la clase UsuarioServicioImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método eliminar() de la clase UsuarioServicioImpl. Usuario eliminado OK
+05/03/2024 11:32:30 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:30 [INFO] Saliendo del método EliminarUsuario() de la clase AdministracionUsuariosController. El usuario se ha eliminado correctamente
+05/03/2024 11:32:31 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:32:31 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:31 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:32:31 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:32:31 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:32:34 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:32:34 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:32:34 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:32:47 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 11:32:47 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:32:47 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:32:47 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:32:47 [INFO] Entrando en el método usuarioToDao() de la clase ConvertirAdaoImpl
+05/03/2024 11:32:47 [INFO] Saliendo del método usuarioToDao() de la clase ConvertirAdaoImpl
+05/03/2024 11:32:47 [INFO] Entrando en el método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:32:47 [INFO] Saliendo del método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:32:47 [INFO] Entrando en el método enviarEmailConfirmacion() de la clase ServicioEmailImpl
+05/03/2024 11:32:48 [INFO] Saliendo del método enviarEmailConfirmacion() de la clase ServicioEmailImpl
+05/03/2024 11:32:48 [INFO] Saliendo del método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:32:48 [INFO] Saliendo del método RegistrarGet() de la clase RegistroController. Registro del nuevo usuario OK
+05/03/2024 11:33:44 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:33:48 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:33:49 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:33:50 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:33:52 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:33:54 [INFO] Entrando en el método ProcesarInicioRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:33:54 [INFO] Entrando en el método iniciarProcesoRecuperacion() de la clase UsuarioServicioImpl
+05/03/2024 11:33:54 [INFO] Entrando en el método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:33:54 [INFO] Saliendo del método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:33:54 [INFO] Entrando en el método enviarEmailRecuperacion() de la clase ServicioEmailImpl
+05/03/2024 11:33:55 [INFO] Saliendo del método enviarEmailRecuperacion() de la clase ServicioEmailImpl
+05/03/2024 11:33:55 [INFO] Saliendo del método iniciarProcesoRecuperacion() de la clase UsuarioServicioImpl.
+05/03/2024 11:33:55 [INFO] Saliendo del método ProcesarInicioRecuperacion() de la clase SolicitarRecuperacionController. Proceso de recuperación OK
+05/03/2024 11:34:32 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:34:32 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:34:32 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:34:32 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:34:32 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:34:32 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:34:32 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:34:32 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:34:32 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:34:32 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:34:32 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:34:32 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:34:32 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:34:32 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:34:35 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:34:35 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:35:01 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:35:40 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:35:44 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:35:44 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:36:14 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:36:25 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 11:36:25 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:36:25 [INFO] Saliendo del método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:36:25 [INFO] Saliendo del método RegistrarGet() de la clase RegistroController. Ya existe un usuario registrado con ese email pero con la cuenta sin verificar
+05/03/2024 11:36:51 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:36:51 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:36:51 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:36:51 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:36:51 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:36:51 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:51 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:51 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:36:51 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:36:51 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:36:51 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:51 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:51 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:36:51 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:36:53 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:36:53 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:36:53 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:53 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:53 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:53 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:53 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:53 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:53 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:36:55 [INFO] Entrando en el método EliminarUsuario() de la clase AdministracionUsuariosController
+05/03/2024 11:36:55 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:36:55 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:36:55 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:55 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:55 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:36:55 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:55 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:55 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:55 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:55 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:55 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:55 [INFO] Entrando en el método contarUsuariosPorRol() de la clase UsuarioServicioImpl
+05/03/2024 11:36:55 [INFO] Entrando en el método eliminar() de la clase UsuarioServicioImpl
+05/03/2024 11:36:56 [INFO] Saliendo del método eliminar() de la clase UsuarioServicioImpl. Usuario eliminado OK
+05/03/2024 11:36:56 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:36:56 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:56 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:56 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:56 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:56 [INFO] Saliendo del método EliminarUsuario() de la clase AdministracionUsuariosController. El usuario se ha eliminado correctamente
+05/03/2024 11:36:58 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:36:58 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:58 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:36:58 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:36:58 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:37:00 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:37:00 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:37:17 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:37:19 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:37:21 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:37:50 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:38:02 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+05/03/2024 11:38:14 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+05/03/2024 11:38:14 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:38:14 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:38:14 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:38:14 [INFO] Entrando en el método usuarioToDao() de la clase ConvertirAdaoImpl
+05/03/2024 11:38:14 [INFO] Saliendo del método usuarioToDao() de la clase ConvertirAdaoImpl
+05/03/2024 11:38:14 [INFO] Entrando en el método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:38:14 [INFO] Saliendo del método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:38:14 [INFO] Entrando en el método enviarEmailConfirmacion() de la clase ServicioEmailImpl
+05/03/2024 11:38:15 [INFO] Saliendo del método enviarEmailConfirmacion() de la clase ServicioEmailImpl
+05/03/2024 11:38:15 [INFO] Saliendo del método registrarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:38:15 [INFO] Saliendo del método RegistrarGet() de la clase RegistroController. Registro del nuevo usuario OK
+05/03/2024 11:38:22 [INFO] Entrando en el método ConfirmarCuenta() de la clase LoginController
+05/03/2024 11:38:22 [INFO] Entrando en el método confirmarCuenta() de la clase UsuarioServicioImpl
+05/03/2024 11:38:22 [INFO] Saliendo del método confirmarCuenta() de la clase UsuarioServicioImpl. Cuenta confirmada OK.
+05/03/2024 11:38:22 [INFO] Saliendo del método ConfirmarCuenta() de la clase LoginController. La dirección de correo ha sido confirmada correctamente
+05/03/2024 11:38:26 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:38:26 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:38:26 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:38:26 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:38:26 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:26 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:26 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:26 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:26 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:38:26 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:26 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:26 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:26 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:26 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:38:29 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:38:29 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:38:30 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:38:32 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:38:32 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:38:32 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:38:32 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:38:32 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:32 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:32 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:32 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:32 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:38:32 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:32 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:32 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:32 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:32 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:38:35 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:38:35 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:38:35 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:35 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:35 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:35 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:35 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:35 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:35 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:38:37 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:38:37 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:38:37 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:38:37 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:37 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:37 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 11:38:42 [INFO] Entrando en el método ProcesarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:38:42 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:38:42 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:38:42 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:42 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:42 [INFO] Entrando en el método actualizarUsuario() de la clase UsuarioServicioImpl
+05/03/2024 11:38:42 [INFO] Saliendo del método actualizarUsuario() de la clase UsuarioServicioImpl. Usuario actualizado OK
+05/03/2024 11:38:42 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:38:42 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:42 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:42 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:42 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:42 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:42 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:42 [INFO] Saliendo del método ProcesarFormularioEdicion() de la clase AdministracionUsuariosController. El Usuario se ha editado correctamente
+05/03/2024 11:38:44 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:45 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:45 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:45 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:45 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:38:46 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:38:46 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:38:47 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:38:49 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:38:49 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:38:49 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:38:49 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:38:49 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:49 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:49 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:49 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:49 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:38:49 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:49 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:49 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:38:49 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:38:49 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:38:53 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:38:53 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:38:54 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:38:55 [INFO] Entrando en el método MostrarVistaIniciarRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:38:57 [INFO] Entrando en el método ProcesarInicioRecuperacion() de la clase SolicitarRecuperacionController
+05/03/2024 11:38:57 [INFO] Entrando en el método iniciarProcesoRecuperacion() de la clase UsuarioServicioImpl
+05/03/2024 11:38:57 [INFO] Entrando en el método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:38:57 [INFO] Saliendo del método generarToken() de la clase UsuarioServicioImpl
+05/03/2024 11:38:57 [INFO] Entrando en el método enviarEmailRecuperacion() de la clase ServicioEmailImpl
+05/03/2024 11:38:58 [INFO] Saliendo del método enviarEmailRecuperacion() de la clase ServicioEmailImpl
+05/03/2024 11:38:58 [INFO] Saliendo del método iniciarProcesoRecuperacion() de la clase UsuarioServicioImpl.
+05/03/2024 11:38:58 [INFO] Saliendo del método ProcesarInicioRecuperacion() de la clase SolicitarRecuperacionController. Proceso de recuperación OK
+05/03/2024 11:39:06 [INFO] Entrando en el método MostrarVistaRecuperar() de la clase RecuperarPasswordController
+05/03/2024 11:39:06 [INFO] Entrando en el método obtenerUsuarioPorToken() de la clase UsuarioServicioImpl
+05/03/2024 11:39:06 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:06 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:06 [INFO] Saliendo del método obtenerUsuarioPorToken() de la clase UsuarioServicioImpl.
+05/03/2024 11:39:06 [INFO] Saliendo del método MostrarVistaRecuperar() de la clase RecuperarPasswordController
+05/03/2024 11:39:14 [INFO] Entrando en el método ProcesarRecuperacionContraseña() de la clase RecuperarPasswordController
+05/03/2024 11:39:14 [INFO] Entrando en el método obtenerUsuarioPorToken() de la clase UsuarioServicioImpl
+05/03/2024 11:39:14 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:14 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:14 [INFO] Saliendo del método obtenerUsuarioPorToken() de la clase UsuarioServicioImpl.
+05/03/2024 11:39:14 [INFO] Entrando en el método modificarContraseñaConToken() de la clase UsuarioServicioImpl
+05/03/2024 11:39:14 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:39:14 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:39:14 [INFO] Saliendo del método modificarContraseñaConToken() de la clase UsuarioServicioImpl.
+05/03/2024 11:39:14 [INFO] Saliendo del método ProcesarRecuperacionContraseña() de la clase RecuperarPasswordController. Contraseña modificada OK
+05/03/2024 11:39:17 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:39:17 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:39:17 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:39:17 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:39:17 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:17 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:17 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:17 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:17 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:39:17 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:17 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:17 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:17 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:17 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:39:22 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:39:22 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:39:22 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:39:24 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:39:24 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:39:24 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:39:24 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:39:24 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:24 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:24 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:24 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:24 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+05/03/2024 11:39:24 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:24 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:24 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:24 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:24 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:39:28 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:39:28 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:39:28 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:28 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:28 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:28 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:28 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:28 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:28 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:39:30 [INFO] Entrando en el método MostrarFormularioEdicion() de la clase AdministracionUsuariosController
+05/03/2024 11:39:30 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:39:30 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:39:30 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:30 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:30 [INFO] Saliendo del método MostrarFormularioEdicion() de la clase AdministracionUsuariosController.
+05/03/2024 11:39:33 [INFO] Entrando en el método EliminarUsuario() de la clase AdministracionUsuariosController
+05/03/2024 11:39:33 [INFO] Entrando en el método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método buscarPorId() de la clase UsuarioServicioImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método contarUsuariosPorRol() de la clase UsuarioServicioImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método eliminar() de la clase UsuarioServicioImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método eliminar() de la clase UsuarioServicioImpl. Usuario eliminado OK
+05/03/2024 11:39:33 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:33 [INFO] Saliendo del método EliminarUsuario() de la clase AdministracionUsuariosController. El usuario se ha eliminado correctamente
+05/03/2024 11:39:39 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:39 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:39 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:39 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:39 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:39:40 [INFO] Entrando en el método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:39:40 [INFO] Entrando en el método obtenerTodosLosUsuarios() de la clase UsuarioServicioImpl
+05/03/2024 11:39:40 [INFO] Entrando en el método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:40 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:40 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:40 [INFO] Saliendo del método listaUsuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:40 [INFO] Saliendo del método ListadoUsuarios() de la clase AdministracionUsuariosController
+05/03/2024 11:39:41 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:41 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:41 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+05/03/2024 11:39:41 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+05/03/2024 11:39:41 [INFO] Entrando en el método Dashboard() de la clase LoginController
+05/03/2024 11:39:44 [INFO] Entrando en el método CerrarSesion() de la clase LoginController
+05/03/2024 11:39:44 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:39:45 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:39:47 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+05/03/2024 11:39:47 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:39:47 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+05/03/2024 11:39:47 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl. Username no encontrado
+05/03/2024 11:39:47 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController. Credenciales inválidas o cuenta no confirmada. Inténtelo de nuevo.
+05/03/2024 11:52:57 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:59:34 [INFO] Entrando en el método  Index() de la clase HomeController
+05/03/2024 11:59:35 [INFO] Entrando en el método Login() de la clase LoginController
+05/03/2024 11:59:36 [INFO] Entrando en el método  Index() de la clase HomeController
+06/03/2024 12:04:16 [INFO] Entrando en el método  Index() de la clase HomeController
+06/03/2024 12:04:18 [INFO] Entrando en el método Login() de la clase LoginController
+06/03/2024 12:04:18 [INFO] Entrando en el método  Index() de la clase HomeController
+06/03/2024 12:04:19 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+06/03/2024 12:04:19 [INFO] Entrando en el método  Index() de la clase HomeController
+06/03/2024 12:04:20 [INFO] Entrando en el método Login() de la clase LoginController
+06/03/2024 12:04:21 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+06/03/2024 12:04:23 [INFO] Entrando en el método Login() de la clase LoginController
+06/03/2024 12:04:24 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:04:24 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:04:24 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:04:24 [ERROR] Se lanzó una excepción en el método ProcesarInicioSesion() de la clase LoginController: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.<ValidatePropertyMapping>g__Validate|7_0(IConventionTypeBase typeBase, <>c__DisplayClass7_0&) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidatePropertyMapping(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model() |    at Microsoft.EntityFrameworkCore.DbContext.get_Model() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider() |    at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate) |    at Banco.Servicios.UsuarioServicioImpl.verificarCredenciales(String emailUsuario, String claveUsuario) in C:\Users\pablo\Downloads\Banco - copia\Banco\Servicios\UsuarioServicioImpl.cs:line 263 |    at Banco.Controllers.LoginController.ProcesarInicioSesion(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\LoginController.cs:line 50
+06/03/2024 12:04:26 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:04:26 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:04:26 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:04:26 [ERROR] Se lanzó una excepción en el método ProcesarInicioSesion() de la clase LoginController: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.<ValidatePropertyMapping>g__Validate|7_0(IConventionTypeBase typeBase, <>c__DisplayClass7_0&) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidatePropertyMapping(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model() |    at Microsoft.EntityFrameworkCore.DbContext.get_Model() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider() |    at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate) |    at Banco.Servicios.UsuarioServicioImpl.verificarCredenciales(String emailUsuario, String claveUsuario) in C:\Users\pablo\Downloads\Banco - copia\Banco\Servicios\UsuarioServicioImpl.cs:line 263 |    at Banco.Controllers.LoginController.ProcesarInicioSesion(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\LoginController.cs:line 50
+06/03/2024 12:04:55 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:04:55 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:04:55 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:04:55 [ERROR] Se lanzó una excepción en el método ProcesarInicioSesion() de la clase LoginController: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.<ValidatePropertyMapping>g__Validate|7_0(IConventionTypeBase typeBase, <>c__DisplayClass7_0&) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidatePropertyMapping(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model() |    at Microsoft.EntityFrameworkCore.DbContext.get_Model() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider() |    at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate) |    at Banco.Servicios.UsuarioServicioImpl.verificarCredenciales(String emailUsuario, String claveUsuario) in C:\Users\pablo\Downloads\Banco - copia\Banco\Servicios\UsuarioServicioImpl.cs:line 263 |    at Banco.Controllers.LoginController.ProcesarInicioSesion(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\LoginController.cs:line 50
+06/03/2024 12:04:57 [INFO] Entrando en el método RegistrarGet() de la clase RegistroController
+06/03/2024 12:05:10 [INFO] Entrando en el método RegistrarPost() de la clase RegistroController
+06/03/2024 12:05:10 [INFO] Entrando en el método registrarUsuario() de la clase UsuarioServicioImpl
+06/03/2024 12:05:10 [Error UsuarioServicioImpl - registrarUsuario()] Error al registrar un usuario: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.
+06/03/2024 12:05:10 [ERROR] Se lanzó una excepción en el método RegistrarPost() de la clase  RegistroController: Object reference not set to an instance of an object.   at Banco.Controllers.RegistroController.RegistrarPost(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\RegistroController.cs:line 56
+06/03/2024 12:06:14 [INFO] Entrando en el método  Index() de la clase HomeController
+06/03/2024 12:06:21 [INFO] Entrando en el método Login() de la clase LoginController
+06/03/2024 12:06:24 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:06:24 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:06:24 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:06:24 [ERROR] Se lanzó una excepción en el método ProcesarInicioSesion() de la clase LoginController: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.<ValidatePropertyMapping>g__Validate|7_0(IConventionTypeBase typeBase, <>c__DisplayClass7_0&) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidatePropertyMapping(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model() |    at Microsoft.EntityFrameworkCore.DbContext.get_Model() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider() |    at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate) |    at Banco.Servicios.UsuarioServicioImpl.verificarCredenciales(String emailUsuario, String claveUsuario) in C:\Users\pablo\Downloads\Banco - copia\Banco\Servicios\UsuarioServicioImpl.cs:line 263 |    at Banco.Controllers.LoginController.ProcesarInicioSesion(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\LoginController.cs:line 50
+06/03/2024 12:08:19 [INFO] Entrando en el método  Index() de la clase HomeController
+06/03/2024 12:08:21 [INFO] Entrando en el método Login() de la clase LoginController
+06/03/2024 12:08:22 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:08:22 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:08:22 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:08:22 [ERROR] Se lanzó una excepción en el método ProcesarInicioSesion() de la clase LoginController: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.<ValidatePropertyMapping>g__Validate|7_0(IConventionTypeBase typeBase, <>c__DisplayClass7_0&) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidatePropertyMapping(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model() |    at Microsoft.EntityFrameworkCore.DbContext.get_Model() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider() |    at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate) |    at Banco.Servicios.UsuarioServicioImpl.verificarCredenciales(String emailUsuario, String claveUsuario) in C:\Users\pablo\Downloads\Banco - copia\Banco\Servicios\UsuarioServicioImpl.cs:line 263 |    at Banco.Controllers.LoginController.ProcesarInicioSesion(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\LoginController.cs:line 50
+06/03/2024 12:08:24 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:08:24 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:08:24 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:08:24 [ERROR] Se lanzó una excepción en el método ProcesarInicioSesion() de la clase LoginController: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.<ValidatePropertyMapping>g__Validate|7_0(IConventionTypeBase typeBase, <>c__DisplayClass7_0&) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidatePropertyMapping(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model() |    at Microsoft.EntityFrameworkCore.DbContext.get_Model() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider() |    at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate) |    at Banco.Servicios.UsuarioServicioImpl.verificarCredenciales(String emailUsuario, String claveUsuario) in C:\Users\pablo\Downloads\Banco - copia\Banco\Servicios\UsuarioServicioImpl.cs:line 263 |    at Banco.Controllers.LoginController.ProcesarInicioSesion(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\LoginController.cs:line 50
+06/03/2024 12:08:25 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:08:25 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:08:25 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:08:25 [ERROR] Se lanzó una excepción en el método ProcesarInicioSesion() de la clase LoginController: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.<ValidatePropertyMapping>g__Validate|7_0(IConventionTypeBase typeBase, <>c__DisplayClass7_0&) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidatePropertyMapping(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model() |    at Microsoft.EntityFrameworkCore.DbContext.get_Model() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider() |    at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate) |    at Banco.Servicios.UsuarioServicioImpl.verificarCredenciales(String emailUsuario, String claveUsuario) in C:\Users\pablo\Downloads\Banco - copia\Banco\Servicios\UsuarioServicioImpl.cs:line 263 |    at Banco.Controllers.LoginController.ProcesarInicioSesion(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\LoginController.cs:line 50
+06/03/2024 12:10:41 [INFO] Entrando en el método  Index() de la clase HomeController
+06/03/2024 12:10:42 [INFO] Entrando en el método Login() de la clase LoginController
+06/03/2024 12:10:43 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:10:43 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:10:43 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:10:43 [ERROR] Se lanzó una excepción en el método ProcesarInicioSesion() de la clase LoginController: The property 'Cuenta.Usuario' could not be mapped because it is of type 'object', which is not a supported primitive type or a valid entity type. Either explicitly map this property, or ignore it using the '[NotMapped]' attribute or by using 'EntityTypeBuilder.Ignore' in 'OnModelCreating'.   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.<ValidatePropertyMapping>g__Validate|7_0(IConventionTypeBase typeBase, <>c__DisplayClass7_0&) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidatePropertyMapping(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger) |    at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime) |    at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model() |    at Microsoft.EntityFrameworkCore.DbContext.get_Model() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable() |    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider() |    at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate) |    at Banco.Servicios.UsuarioServicioImpl.verificarCredenciales(String emailUsuario, String claveUsuario) in C:\Users\pablo\Downloads\Banco - copia\Banco\Servicios\UsuarioServicioImpl.cs:line 263 |    at Banco.Controllers.LoginController.ProcesarInicioSesion(UsuarioDTO usuarioDTO) in C:\Users\pablo\Downloads\Banco - copia\Banco\Controllers\LoginController.cs:line 50
+06/03/2024 12:13:23 [INFO] Entrando en el método  Index() de la clase HomeController
+06/03/2024 12:13:24 [INFO] Entrando en el método Login() de la clase LoginController
+06/03/2024 12:13:25 [INFO] Entrando en el método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:13:25 [INFO] Entrando en el método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:13:25 [INFO] Saliendo del método Encriptar() de la clase ServicioEncriptarImpl
+06/03/2024 12:13:25 [INFO] Saliendo del método verificarCredenciales() de la clase UsuarioServicioImpl
+06/03/2024 12:13:25 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+06/03/2024 12:13:25 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+06/03/2024 12:13:25 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+06/03/2024 12:13:25 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+06/03/2024 12:13:25 [INFO] Saliendo del método ProcesarInicioSesion() de la clase LoginController
+06/03/2024 12:13:25 [INFO] Entrando en el método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+06/03/2024 12:13:25 [INFO] Entrando en el método usuarioToDto() de la clase ConvertirAdtoImpl
+06/03/2024 12:13:25 [INFO] Saliendo del método usuarioToDto() de la clase ConvertirAdtoImpl
+06/03/2024 12:13:25 [INFO] Saliendo del método obtenerUsuarioPorEmail() de la clase UsuarioServicioImpl
+06/03/2024 12:13:25 [INFO] Entrando en el método Dashboard() de la clase LoginController

@@ -1,0 +1,28 @@
+﻿@model Banco.DTO.UsuarioDTO
+@{
+    ViewData["Title"] = "recuperar";
+}
+
+<div class="container py-4">
+    <div class="card bg-light p-4">
+        <form class="custom-form" asp-action="Recuperar" asp-controller="Auth" method="post">
+            <h2 class="text-center mb-4">Restablezca su contraseña</h2>
+            <input type="hidden" asp-for="Token" />
+            <div class="mb-3">
+                <label for="password" class="form-label textoPrincipal">Contraseña</label>
+                <input type="password" name="ClaveUsuario" class="form-control" oninput="revisarContraseña()" id="ClaveUsuario" placeholder="Introduzca su nueva contraseña" required autofocus />
+            </div>
+            <div class="mb-3">
+                <label for="confirmarPassword" class="form-label textoPrincipal">Confirmar contraseña</label>
+                <input type="password" id="confirmarPassword" name="confirmarPassword" class="form-control" oninput="revisarContraseña()" placeholder="Introduzca de nuevo la contraseña" required />
+            </div>
+            <div class="mensajeContrasenya text-center" id="mensajeContrasenya"></div>
+            <div class="text-center mt-4">
+                <button type="submit" id="btnRegistro" class="btn btn-primary btn-block">Restablecer</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,91 @@
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"] as string;
+    var currentAction = ViewContext.RouteData.Values["action"] as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Banco</title>
+   
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Banco.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Banco</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        @if (currentController == "Home" && currentAction == "Index")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/auth/login">Iniciar sesión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/auth/crear-cuenta">Crear cuenta</a>
+                            </li>
+                        }
+                        @if (currentController == "Login" && currentAction == "Login")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/auth/crear-cuenta">Crear cuenta</a>
+                            </li>
+                        }
+
+                        @if ((currentController == "Registro" && currentAction == "RegistrarGet")
+                        ||
+                        (currentController == "SolicitarRecuperacion" && currentAction == "MostrarVistaIniciarRecuperacion"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/auth/login">Iniciar sesión</a>
+                            </li>
+                        }
+                        @if ((currentController == "AdministracionUsuarios" && currentAction == "ListadoUsuarios") ||
+                        (currentController == "AdministracionUsuarios" && currentAction == "ProcesarFormularioEdicion") ||
+                        (currentController == "AdministracionUsuarios" && currentAction == "EliminarUsuario"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/privada/dashboard">Volver a inicio</a>
+                            </li>
+                        }
+                        @if (currentController == "AdministracionUsuarios"
+                        &&
+                        (currentAction == "MostrarFormularioEdicion" || currentAction == "RegistroUsuarioDesdeAdminGet"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/privada/administracion-usuarios">Volver a Administración usuarios</a>
+                            </li>
+                        }
+                        @if (User.Identity.IsAuthenticated && currentController == "Login")
+                        {
+                            <li class="nav-item">
+                                <form asp-action="CerrarSesion" method="post" id="logoutForm">
+                                    <button type="button" class="btn btn-primary" onclick="confirmarLogout()">Cerrar sesión</button>
+                                </form>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>
